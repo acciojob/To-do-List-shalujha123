@@ -10,6 +10,7 @@ function addTask(){
 	let task = input.value.trim()
 	if(!task){
 		alert("Add item to list")
+		return
 	}
 	let li = document.createElement("li")
 	li.innerHTML = task
